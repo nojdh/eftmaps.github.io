@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Simply Escape From Tarkov Maps </title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <script src="bildbyte.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark info-color">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link hover-effect" href="#" onclick="bildbyte(1)">CUSTOMS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-effect" href="#" onclick="bildbyte(2)">FACTORY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-effect" href="#" onclick="bildbyte(3)">THE LAB</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-effect" href="#" onclick="bildbyte(4)">INTERCHANGE</a>
+                </li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link hover-effect" href="#" onclick="bildbyte(5)">WOODS</a>
+                </li>
+                <li class="nav-item right" style="position: absolute; right: 0;">
+                    <p class="nav-link" href="#">Scroll on the map to move it around</p>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    </div>
+    <div id="holder">
+        <div class="row">
+            <div class="col-md-12">
+                <img id="imageshower" src="customs.png" class="zoom img-fluid" alt="Responsive image"></div>
+            <script src="wheelzoom.js"></script>
+            <script>
+                wheelzoom(document.querySelector('img.zoom'));
+            </script>
+        </div>
+    </div>
+
+</body>
+
+</html>
