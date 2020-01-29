@@ -30,6 +30,35 @@ body {
   border-radius: 0.2em; margin-top: 0.6em;
 }
 
-.nav-link active{
-  text-decoration: line-through;
+.dropdown>.dropdown-menu {
+  transition: 0.3s all ease-in-out;
+  background-color: rgb(31, 31, 31);
+  border-radius: 0.4em;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  top: 85%;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.623) !important;
+  transition: 0.1s;
+  background-color: rgb(31, 31, 31) !important;
+}
+
+.dropdown-item:hover {
+  color: white !important;
+  background: rgba(136, 136, 136, 0.082) !important;
+  border-radius: 0.2em;
+  transition: 0.2s;
+}
+
+.dropdown-item {
+  color: white;
+  transition: 0.1s;
+}
+
+.dropdown>.dropdown:active {
+    pointer-events: none;
 }

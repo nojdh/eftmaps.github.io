@@ -13,5 +13,11 @@ function bildbyte(input) {
     }
     else if (input == 5){
         document.getElementById('imageshower').src = 'woods.jpg';
-      }
+    }
+    else if (input == 6){
+      document.getElementById('imageshower').src = 'factory3d.jpg';
+    }
+  else if (input == 7){
+    document.getElementById('imageshower').src = 'reserve.png';
+  }
   }
