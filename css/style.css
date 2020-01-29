@@ -3,7 +3,7 @@
 }
 
 body {
-  background: black;
+  background: rgb(41, 41, 41);
 }
 
 *{
@@ -24,10 +24,18 @@ body {
 #holder {
   width: 80%;
   margin: 0 auto;
+  margin-top: 0.2em;
+  position: relative;
+  background-color:#000000;
+  border-radius: 0.4em;
+  border: 8px ridge #252525;
+  box-shadow: 0px 4px 21px 0px rgba(0,0,0,0.45);
+  margin-bottom: 4em;
 }
 
 #imageshower {
-  border-radius: 0.2em; margin-top: 0.6em;
+ margin-top: 0.4em;
+ margin: 0 auto;
 }
 
 .dropdown>.dropdown-menu {
@@ -38,7 +46,7 @@ body {
 
 .dropdown:hover>.dropdown-menu {
   display: block;
-  top: 85%;
+  top: -200%;
 }
 
 .dropdown-item {
