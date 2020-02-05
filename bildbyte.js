@@ -20,6 +20,9 @@ function bildbyte(input) {
   else if (input == 7){
   bytbild('reserve.png', 5, 9)
   }
+  else if (input == 8){
+    bytbild('shoreline.jpg', 5, 9)
+    }
 }
 
 function bytbild(bild, x, y) {
