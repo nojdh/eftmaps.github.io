@@ -33,7 +33,7 @@ body {
 }
 
 .dropdown-item {
-  color: rgba(255, 255, 255, 0.623) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
   transition: 0.1s;
   background-color: rgb(31, 31, 31) !important;
 }
@@ -60,4 +60,19 @@ body {
 
 .leaflet-container {
   background: radial-gradient(circle, rgba(5,5,5,1) 0%, rgba(5,5,5,1) 32%, rgba(11,12,13,1) 100%) !important;
+}
+
+#side-menu {
+  background: rgb(32, 32, 32);
+  transition: .4s;
+}
+
+.close {
+  color: white;
+}
+.close:hover {
+  color: white;
+}
+.nav-link {
+  color: rgb(124, 124, 124) !important;
 }
